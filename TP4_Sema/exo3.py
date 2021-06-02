@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun  4 08:12:57 2019
-
-@author: noemie.rolland
-"""
-
 import multiprocessing as mp
 from multiprocessing import Process
 import time ,sys

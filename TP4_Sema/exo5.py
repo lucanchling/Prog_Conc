@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun  4 09:17:39 2019
-
-@author: noemie.rolland
-"""
-
 import multiprocessing as mp
 from multiprocessing import Process, Value
 import time ,sys
@@ -12,15 +5,15 @@ import time ,sys
 # EXERCICE 5 
 # Exemple 2 Process
 
-#def processusP1(sem1):
+# def processusP1(sem1):
 #        sem1.acquire()
 #        print("Je suis P1")
 #        time.sleep(1)
 #        sem2.release()
 #        sem1.acquire()
 #        rdv1()
-#    
-#def processusP2(sem2):
+   
+# def processusP2(sem2):
 #        sem2.acquire()
 #        print("Je suis P2")
 #        time.sleep(1)
@@ -99,6 +92,4 @@ P3.start()
 P1.join()
 P2.join()
 P3.join()
-
-# ERXERCICE 6
 
